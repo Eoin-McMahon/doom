@@ -8,12 +8,9 @@
 *.elc
 auto-save-list
 tramp
-.\#*
 
 # Emacs backups
-*~
 *.bak
-\#*\#
 .saves-*
 
 # Org-mode
