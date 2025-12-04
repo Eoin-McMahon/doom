@@ -1,0 +1,87 @@
+# Doom Emacs - Local configuration files
+.local/
+
+# Emacs temporary files
+*~
+\#*\#
+.\#*
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Emacs backups
+*~
+*.bak
+\#*\#
+.saves-*
+
+# Org-mode
+.org-id-locations
+*_archive
+ltximg/
+
+# Network security
+/network-security.data
+
+# Custom file
+custom.el
+
+# Emacs session
+.session
+session.*
+
+# Emacs desktop
+.emacs.desktop
+.emacs.desktop.lock
+emacs.desktop
+emacs.desktop.lock
+
+# ELPA (package manager)
+elpa/
+quelpa/
+
+# Eshell
+eshell/history
+eshell/lastdir
+
+# Projectile
+.projectile
+projectile-bookmarks.eld
+projectile.cache
+
+# Recentf
+recentf
+recentf~
+
+# SMEX
+smex-items
+
+# Undo tree
+*.~undo-tree~
+
+# Bookmarks
+bookmarks
+
+# Savehist
+history
+
+# Straight package manager (Doom uses this)
+.straight/
+
+# OS Files
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+.Trash-*
